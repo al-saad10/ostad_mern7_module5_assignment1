@@ -1,0 +1,125 @@
+body{
+    background: rgba(206, 198, 201, 0.411) !important;
+    background: radial-gradient(circle, #a9d1d1 0%, rgb(99, 115, 133) 100%) !important;
+}
+
+/* Add a box shadow to the navbar */
+.navbar {
+    box-shadow: 0 6px 6px rgba(216, 221, 226, 0.726); /* Adjust the shadow properties as needed */
+}
+
+
+.navbar.navbar-expanded .navbar-{
+    border-style: solid;
+    border-color: #806366;
+    padding: 2%;
+    margin: auto;
+    
+}
+
+/* Change the text color of the brand name */
+.navbar .navbar-brand {
+    color: #ffcc00; /* Replace with your desired color */
+}
+
+/* Change the text color of all links in the navbar */
+.navbar .nav-link {
+    color: #ffffff; /* Replace with your desired color */
+}
+
+/* Change the text color of active link */
+.navbar .nav-link.active {
+    color: #ffcc00; /* Replace with your desired color */
+}
+
+/* Change the text color of links on hover */
+.navbar .nav-link:hover {
+    color: #ffcc00; /* Replace with your desired color */
+}
+
+#buttons{
+    /* margin-top: 5%; */
+    margin: 5% auto;
+    padding-inline: calc();
+}
+
+/* Align the second navigation list to the right */
+.navbar .second-nav {
+    margin-left: auto;
+}
+
+.container{
+    margin: 2% auto;
+    padding: 2%;
+}
+
+/* Custom card height */
+.card {
+    height: 300px; /* Adjust this value to set the desired height */
+    margin-bottom: 10%;
+}
+
+.card-img-top {
+    height: 150px; /* Adjust this value to set the desired image height */
+    object-fit: cover; /* Ensures the image covers the entire area without stretching */
+}
+
+.card-body {
+    overflow-y: auto; /* Adds a scroll bar if the content exceeds the height */
+}
+
+
+.progress{
+    
+       margin: 0.5% auto;
+      
+}
+
+.slider{
+  
+    
+}
+
+/* .table{
+   
+   
+    margin-left: 16%;
+    margin-bottom: 15%;
+    width: 1300px !important;
+} */
+
+
+.table-title{
+    text-align: center;
+    
+}
+
+.bar{
+    text-align: center;
+    
+}
+
+.section-title{
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+}
+
+.form-group{
+    padding: 5px!important;
+}
+
+.list-group{
+    text-align: center;
+}
+
+#dropdown{
+    align-self:center;
+    text-align: center;
+}
+
+.pagination{
+    justify-content: center;
+}
